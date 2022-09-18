@@ -1,0 +1,21 @@
+.modal-open-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    align-items: center;
+    letter-spacing: 0.06em;
+    padding: 10px 32px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 0;
+    transition: color var(--transition-basic), background-color var(--transition-basic);
+
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    
+    &:hover,
+    &:focus {
+        color: var(--primary-white-color);
+            background-color: var(--active-accent-color);
+    }
+}
