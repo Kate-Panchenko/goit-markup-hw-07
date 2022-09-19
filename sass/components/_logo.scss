@@ -3,21 +3,23 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+
+    &__header,
+    &__footer {
+            color: var(--accent-color);
+        }
+
+    &__header {
+            margin-right: 93px;
+        }
+    &_dark {
+            color: var(--primary-black-color);
+        }
+    
+    &_light {
+            color: var(--primary-white-color);
+        }
 }
 
-.logo__header {
-    margin-right: 93px;
-}
 
-.logo__header,
-.logo__footer {
-    color: var(--accent-color);
-}
 
-.logo_dark {
-    color: var(--primary-black-color);
-}
-
-.logo_light {
-    color: var(--primary-white-color);
-}

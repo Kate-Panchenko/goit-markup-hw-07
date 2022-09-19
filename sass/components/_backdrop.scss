@@ -8,10 +8,10 @@
     background-color: var(--backdrop-bcg-color);
 
     transition: visibility var(--transition-long), opacity var(--transition-long);
-}
 
-.backdrop.is-hidden {
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
+    &.is-hidden {
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+    }
 }

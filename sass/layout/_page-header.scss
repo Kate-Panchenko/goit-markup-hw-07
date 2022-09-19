@@ -23,13 +23,11 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     transition: color var(--transition-basic);
-}
 
-.menu__link:hover,
-.menu__link:focus,
-.page-contacts__link:hover,
-.page-contacts__link:focus {
-    color: var(--accent-color);
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
 }
 
 .menu__link {
@@ -37,57 +35,57 @@
     padding-top: 25px;
     padding-bottom: 31px;
     color: var(--primary-text-color);
-}
 
-.menu__link::before {
-    content: "";
-    position: absolute;
-    height: 4px;
-    width: 100%;
-    right: 0;
-    bottom: -1px;
-    border-radius: 2px;
-    background: var(--accent-color);
-    transform: scale(0);
-    transition: transform var(--transition-basic);
-}
+    &::before {
+        content: "";
+        position: absolute;
+        height: 4px;
+        width: 100%;
+        right: 0;
+        bottom: -1px;
+        border-radius: 2px;
+        background: var(--accent-color);
+        transform: scale(0);
+        transition: transform var(--transition-basic);
+    }
 
-.menu__link:hover::before,
-.menu__link:focus::before {
-    transform: scale(1);
+    &:hover::before,
+    &:focus::before {
+        transform: scale(1);
+    }
 }
 
 .menu__link_current {
     color: var(--accent-color);
-}
 
-.menu__link_current::after {
-    content: "";
-    position: absolute;
-    display: block;
-    height: 4px;
-    width: 100%;
-    right: 0;
-    bottom: -1px;
-    border-radius: 2px;
-    background: var(--accent-color);
+    &::after {
+        content: "";
+        position: absolute;
+        display: block;
+        height: 4px;
+        width: 100%;
+        right: 0;
+        bottom: -1px;
+        border-radius: 2px;
+        background: var(--accent-color);
+    }
 }
 
 .page-contacts {
     margin-left: auto;
-}
 
-.page-contacts__item:not(:last-child) {
-    margin-right: 50px;
-}
+    &__item:not(:last-child) {
+        margin-right: 50px;
+    }
 
-.page-contacts__link {
-    color: var(--secondary-text-color);
-    display: flex;
-    align-items: center;
-}
+    &__link {
+        color: var(--secondary-text-color);
+        display: flex;
+        align-items: center;
+    }
 
-.page-contacts__icon {
-    fill: currentColor;
-    margin-right: 10px;
+    &__icon {
+        fill: currentColor;
+        margin-right: 10px;
+    }
 }

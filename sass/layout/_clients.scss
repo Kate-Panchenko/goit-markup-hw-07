@@ -6,11 +6,12 @@
     display: flex;
     justify-content: space-between;
     gap: 30px;
-}
 
-.clients-list__item {
+    &__item {
     flex-basis: calc((100% - 150px) / 6);
 }
+}
+
 
 .clients-list__link {
     display: flex;

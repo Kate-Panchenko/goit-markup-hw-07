@@ -2,12 +2,12 @@
     background-color: var(--footer-bcg-color);
     padding-top: 60px;
     padding-bottom: 60px;
-}
 
-.page-footer__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
+    &__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
 }
 
 .footer-subtitle {
