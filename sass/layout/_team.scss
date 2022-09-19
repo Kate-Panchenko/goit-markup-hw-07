@@ -30,14 +30,12 @@
 
     &__member {
         font-weight: 500;
-        font-size: 16px;
-        line-height: 1.19;
+        @include font(16px, 19px);
         color: var(--primary-text-color);
     }
 
     &__desc {
-        font-size: 16px;
-        line-height: 1.19;
+        @include font(16px, 19px);
         color: var(--secondary-text-color);
     }
 }

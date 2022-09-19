@@ -27,16 +27,14 @@
 
     &__title {
     font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
+    @include font(18px, 36px);
     letter-spacing: 0.06em;
     margin-bottom: 4px;
     color: var(--primary-text-color);
     }
 
     &__desc {
-        font-size: 16px;
-        line-height: 1.88;
+        @include font(16px, 30px);
         color: var(--secondary-text-color);
     }
 }
@@ -56,9 +54,7 @@
     overflow: auto;
     transform: translateY(101%);
     transition: transform var(--transition-long);
-
-    font-size: 18px;
-    line-height: 1.56;
+    @include font(18px, 28px);
     padding: 63px 24px;
     color: var(--primary-white-color);
     background-color: var(--portfolio-overlay-color);

@@ -9,8 +9,7 @@
 
 .footer-info__contact {
     font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
+    @include font(14px, 24px);
     color: var(--opacity-white);
 
     transition: color var(--transition-basic);

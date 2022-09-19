@@ -1,7 +1,6 @@
 .submit-button {
     font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
+    @include font(16px, 30px);
     align-items: center;
     letter-spacing: 0.06em;
     border-radius: 4px;

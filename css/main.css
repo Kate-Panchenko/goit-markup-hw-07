@@ -35,6 +35,12 @@
   margin: -1px;
 }
 
+.gallery-list__box, .advantages-list__icon-box, .modal-close-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .link {
   text-decoration: none;
   display: inline-block;
@@ -89,7 +95,7 @@ ol {
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.17;
+  line-height: 1.1666666667;
   text-align: center;
   color: var(--primary-text-color);
   margin-bottom: 50px;
@@ -103,7 +109,7 @@ ol {
   font-family: var(--logo-font);
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
+  line-height: 1.1923076923;
 }
 .logo__header, .logo__footer {
   color: var(--accent-color);
@@ -121,7 +127,7 @@ ol {
 .modal-open-btn {
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.88;
+  line-height: 1.875;
   align-items: center;
   letter-spacing: 0.06em;
   padding: 10px 32px;
@@ -140,7 +146,7 @@ ol {
 .submit-button {
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.88;
+  line-height: 1.875;
   align-items: center;
   letter-spacing: 0.06em;
   border-radius: 4px;
@@ -173,8 +179,8 @@ ol {
 
 .sm-link-icon {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   border-radius: 50%;
   width: 44px;
   height: 44px;
@@ -230,9 +236,6 @@ ol {
   cursor: pointer;
   width: 30px;
   height: 30px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   padding: 0;
 }
 
@@ -247,7 +250,7 @@ ol {
 .modal__title {
   font-weight: 700;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.15;
   text-align: center;
   color: var(--primary-text-color);
 }
@@ -264,7 +267,7 @@ ol {
   display: block;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.17;
+  line-height: 1.1666666667;
   letter-spacing: 0.01em;
   color: var(--secondary-text-color);
   margin-bottom: 4px;
@@ -317,7 +320,7 @@ ol {
 }
 .modal-form__comment::placeholder {
   font-size: 12px;
-  line-height: 1.17;
+  line-height: 1.1666666667;
   letter-spacing: 0.01em;
   color: var(--placeholder-color);
 }
@@ -353,10 +356,9 @@ ol {
 
 .modal-form__checkbox-desc {
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.7142857143;
   color: var(--secondary-text-color);
 }
-
 .modal-form__checkbox-desc-link {
   color: var(--accent-color);
 }
@@ -383,7 +385,7 @@ ol {
 .page-contacts__link {
   font-weight: 500;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.1428571429;
   letter-spacing: 0.02em;
   transition: color var(--transition-basic);
 }
@@ -460,7 +462,7 @@ ol {
 .hero__title {
   font-weight: 900;
   font-size: 44px;
-  line-height: 1.36;
+  line-height: 1.3636363636;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   display: flex;
@@ -481,9 +483,6 @@ ol {
 }
 .advantages-list__icon-box {
   background-color: var(--primary-grey-color);
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 120px;
   border-radius: 4px;
   margin-bottom: 30px;
@@ -491,13 +490,13 @@ ol {
 .advantages-list__subtitle {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.1428571429;
   text-transform: uppercase;
   color: var(--primary-text-color);
 }
 .advantages-list__desc {
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.7142857143;
   color: var(--secondary-text-color);
 }
 
@@ -514,9 +513,6 @@ ol {
 }
 .gallery-list__box {
   position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   bottom: 0;
   left: 0;
   width: 100%;
@@ -526,7 +522,7 @@ ol {
 .gallery-list__desc {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.1428571429;
   text-transform: uppercase;
   color: var(--primary-white-color);
 }
@@ -561,12 +557,12 @@ ol {
 .team-box__member {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19;
+  line-height: 1.1875;
   color: var(--primary-text-color);
 }
 .team-box__desc {
   font-size: 16px;
-  line-height: 1.19;
+  line-height: 1.1875;
   color: var(--secondary-text-color);
 }
 
@@ -612,7 +608,7 @@ ol {
 .footer-subtitle {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.1428571429;
   text-transform: uppercase;
   margin-bottom: 20px;
   color: var(--primary-white-color);
@@ -634,7 +630,7 @@ ol {
 .footer-info__contact {
   font-style: normal;
   font-size: 14px;
-  line-height: 1.71;
+  line-height: 1.7142857143;
   color: var(--opacity-white);
   transition: color var(--transition-basic);
 }
@@ -679,7 +675,7 @@ ol {
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.66;
+  line-height: 1.625;
   text-align: center;
   padding: 6px 22px;
   border-radius: 4px;
@@ -728,7 +724,7 @@ ol {
 }
 .portfolio-info__desc {
   font-size: 16px;
-  line-height: 1.88;
+  line-height: 1.875;
   color: var(--secondary-text-color);
 }
 
@@ -748,7 +744,7 @@ ol {
   transform: translateY(101%);
   transition: transform var(--transition-long);
   font-size: 18px;
-  line-height: 1.56;
+  line-height: 1.5555555556;
   padding: 63px 24px;
   color: var(--primary-white-color);
   background-color: var(--portfolio-overlay-color);

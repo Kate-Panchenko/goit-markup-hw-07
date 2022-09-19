@@ -13,6 +13,7 @@
 
 .modal-close-btn {
     position: absolute;
+    @extend %align;
     top: 8px;
     right: 8px;
     background-color: transparent;
@@ -21,9 +22,6 @@
     cursor: pointer;
     width: 30px;
     height: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     padding: 0;
 }
 
